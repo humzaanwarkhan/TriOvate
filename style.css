@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@500&family=Manrope:wght@500&family=Poppins:wght@500&family=Space+Grotesk:wght@500&family=Titillium+Web:wght@300&family=Ubuntu:wght@500&family=Krona+One&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #F2EFE9;
+    font-family: 'Manrope', 'sans-serif';
+    text-align: center;
+}
+.nav{
+    background-color: #252627;
+    color: #F2EFE9;
+    font-size: 25px;
+    text-align: left;
+    padding: 10px 20px;
+    font-family: Krona One;
+}
+.container{
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.game{
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5vmin;
+    justify-content: center;
+    align-items: center;
+    background-color: #904E55;
+    border-radius: 20px;
+    padding: 10px;
+    margin:10vw;
+}
+.box{
+    height: 18vmin;
+    width: 18vmin;
+    background-color: #904E55;
+    color: #F2EFE9;
+    font-size: 8vmin;
+    border: 2px solid #fff;
+    border-radius: 20px;
+}
+.box:hover{
+    background-color: #ad7b80;
+}
+#reset{
+    margin-bottom: 90px;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 20px;
+    background-color: #252627;
+    color: #F2EFE9;
+    font-size: 3.5vmin;
+}
+#reset:hover{
+    cursor: pointer;
+    background-color: #636164;
+}
+
+.showWinner{
+    margin-top: 20px;
+    padding: 20px;
+}
+.msg{
+   font-size: 60px;
+   color: #904E55;
+   font-weight: 700;
+}
+.congo{
+    font-size: 30px;
+    font-weight: 600;
+}
+.hide{
+    display: none;
+}
+.showWinner button{
+    margin: 30px;
+    padding: 15px 30px;
+    font-size: 3vmin;
+    font-weight: 500;
+    background-color: #252627;
+    color: #F2EFE9;
+    border-radius: 20px;
+}
+.showWinner button:hover{
+    cursor: pointer;
+    background-color: #636164;
+}
+

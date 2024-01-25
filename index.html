@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>TriOvate</title>
+</head>
+<body>
+    <div class="nav">
+        TriOvate
+    </div>
+    <main>
+        <div class="showWinner hide">
+            <p class="congo">Congratulations!</p>
+            <p class="msg">winner is X</p>
+            <button onclick="newGame()">New game</button>
+        </div>
+         <div class="container">
+            <div class="game">
+                <button class="box"></button>
+                <button class="box"></button>
+                <button class="box"></button>
+                <button class="box"></button>
+                <button class="box"></button>
+                <button class="box"></button>
+                <button class="box"></button>
+                <button class="box"></button>
+                <button class="box"></button>
+            </div>
+        </div>
+        <button id="reset" onclick="resetGame()">Reset game</button>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
